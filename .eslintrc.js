@@ -1,7 +1,8 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "amd": true
     },
     "extends": "eslint:recommended",
     "globals": {
@@ -13,5 +14,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        'commma-dangle': 0
     }
 };
